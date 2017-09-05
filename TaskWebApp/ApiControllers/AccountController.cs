@@ -16,7 +16,6 @@ namespace TaskWebApp.ApiControllers
         [HttpGet]
         public IHttpActionResult SignUpSignIn()
         {
-            //HttpContext.GetOwinContext().Authentication.Challenge();
             return Ok();
         }
     }
