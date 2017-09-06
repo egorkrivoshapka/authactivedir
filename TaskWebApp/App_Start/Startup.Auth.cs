@@ -87,14 +87,14 @@ namespace TaskWebApp
                 }
             );
 
-            var tenant = ConfigurationManager.AppSettings["ida:Tenant"];
+            //var tenant = ConfigurationManager.AppSettings["ida:Tenant"];
 
-            app.UseWindowsAzureActiveDirectoryBearerAuthentication(
-                new WindowsAzureActiveDirectoryBearerAuthenticationOptions
-                {
-                    Audience = "false",//ConfigurationManager.AppSettings["Audience"],
-                    Tenant = tenant
-                });
+            //app.UseWindowsAzureActiveDirectoryBearerAuthentication(
+            //    new WindowsAzureActiveDirectoryBearerAuthenticationOptions
+            //    {
+            //        Audience = "false",//ConfigurationManager.AppSettings["Audience"],
+            //        Tenant = tenant
+            //    });
         }
 
         /*

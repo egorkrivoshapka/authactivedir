@@ -18,7 +18,7 @@ namespace TaskWebApp.App_Start
                 new { id = RouteParameter.Optional });
 
             // Web API routes
-            //configuration.MapHttpAttributeRoutes();
+            configuration.MapHttpAttributeRoutes();
 
             //var jsonFormatter = configuration.Formatters.OfType<JsonMediaTypeFormatter>().First();
             //jsonFormatter.SerializerSettings.ContractResolver = new CamelCasePropertyNamesContractResolver();
